@@ -1,18 +1,18 @@
 package com.example.app;
 
 import android.os.Bundle;
-
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //Mensaje impreso en la consola
         System.out.println("Start App");
+
+        //metodo para mostrar o llamar una vista
+        setContentView(R.layout.activity_main);
     }
 }
