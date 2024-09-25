@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Archivo para definir el nombre del paquete, las actividades, los permisos y las configuraciones-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
